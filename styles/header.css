@@ -13,7 +13,7 @@
 
 .container__botao:checked ~ .container__rotulo{
     background: var(--azul-degrade);
-    padding-top: 13px ;
+    padding-top: 13px;
 }
 
 .cabeçalho {
