@@ -29,9 +29,7 @@
     font-weight: 700;
 }
 
-.tópicos__link:hover{
-    background-color: #ffbc02;
-}
+
 
 @media screen and (min-width: 1024px) {
     .tópicos__titulo {
@@ -49,6 +47,10 @@
 
     .tópicos__item{
         margin: 2.5em 1em;
+    }
+
+    .tópicos__link:hover{
+        background-color: #ffbc02;
     }
 }
 
