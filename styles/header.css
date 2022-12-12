@@ -91,6 +91,11 @@
         font-size: 30px;
     }
 
+    .container__link:hover{
+        background-color: var(--cor-de-fundo);
+        padding: 0.4em 0;
+    }
+
     .container__titulo {
         font-weight: 400;
         display: block;
@@ -108,6 +113,12 @@
     .opções__link {
         text-decoration: none;
         color: var(--preto);
+    }
+
+    .opções__item:hover{
+        background-color: var(--cor-de-fundo);
+        padding: 2em 1em;
+        
     }
 
     .container__imagem-transparente {
@@ -141,6 +152,7 @@
         text-transform: uppercase;
     }
 
+
     .lista-menu__item:hover{
         background: var(--azul-degrade);
     }
@@ -172,13 +184,6 @@
     .opções{
         margin-right: auto;
         padding: 0 3em;
-    }
-
-
-    .opções__item:hover{
-        background-color: var(--cor-de-fundo);
-        padding: 2em 1em;
-        
     }
 
     .container__texto{
